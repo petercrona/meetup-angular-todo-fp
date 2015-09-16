@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="todo">
+    <head>
+        <title>Today, not tomorrow</title>
+        <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="index.css" rel="stylesheet">
+        <base href="/" />
+    </head>
+    <body>
+
+        <div ui-view></div>
+
+        <script src="libs/kling-bundle.js"></script>
+        <script src="node_modules/angular/angular.min.js"></script>
+        <script src="app.js"></script>
+        <script src="config.js"></script>
+
+        <script src="app/components/dashboard/dashboard-controller.js"></script>
+
+        <script src="app/components/login/login-controller.js"></script>
+
+        <script src="app/common/common.js"></script>
+
+        <script src="app/common/session-service.js"></script>
+        <script src="app/common/storage-service.js"></script>
+        <script src="app/common/auth-service.js"></script>
+
+        <script src="app/common/todo-service.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="node_modules/ui-router/angular-ui-router.js"></script>
+    </body>
+</html>

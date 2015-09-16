@@ -1,0 +1,19 @@
+.main-container {
+    padding-top: 50px;
+}
+
+a {
+    cursor: pointer;
+}
+
+.aside-actions {
+    margin-top: 20px;
+}
+
+.btn-action {
+    margin-right: 10px;
+}
+
+.todo-item {
+    margin-bottom: 15px;
+}
